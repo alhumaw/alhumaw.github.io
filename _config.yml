@@ -23,8 +23,7 @@ title: Alexander M  # the main title
 tagline: Certified CTF GAMER # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  A place to store my experiences with CTF challenges.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://alhumaw.github.io"
 
