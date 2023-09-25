@@ -1,6 +1,6 @@
 ---
 title: NCAE 2023 - Crypto Railway
-date: Mon Jul 24 06:56:00 PM +00 2023
+date: Tues September 25 06:56:00 PM +00 2023
 categories: [Writeup]
 tags: [ctf,cryptography]
 ---
