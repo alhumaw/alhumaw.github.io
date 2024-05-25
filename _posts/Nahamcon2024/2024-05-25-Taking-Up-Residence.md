@@ -1,4 +1,3 @@
-
 ---
 title: NahamCon CTF 2024 - Taking Up Residence
 date: Sat May 25 11:20:00 AM +00 2024
