@@ -25,15 +25,15 @@ Once the drive is loaded, I dug around the filesystem to find anything peculiar 
 
 ![xor](/assets/flag_txt.png)
 
-Look like a python file that was stored in this MFT dump. The Base64 data is a powershell command that opens a file to grab a key.
-Because the python script was executed and the script prints the key, the key also can be found in autopsy along with the encrypted flag
+Looks like a python file that was stored in this MFT dump. The Base64 data is a powershell command that opens a file to grab a key.
+Because the python script was executed and the script prints the key, the key also can be found in autopsy along with the encrypted flag.
 
 ![xor](/assets/key.png)
 
 ![xor](/assets/encoded_flag.png)
 
 
-We know the key and have the encrypted flag, just reverse the Fernet encryption to get the flag
+We know the key and have the encrypted flag, just reverse the Fernet encryption to get the flag.
 
 ```
 flag{a4096cd70d8859d38cf8e7487b4cd0fa}
