@@ -1,4 +1,3 @@
-
 ---
 title: NahamCon CTF 2024 - Breath of the Wild
 date: Sat May 25 10:20:00 AM +00 2024
