@@ -2,7 +2,7 @@
 title: NahamCon CTF 2024 - Taking Up Residence
 date: Sat May 25 11:20:00 AM +00 2024
 categories: [Writeup]
-tags: [ctf,forensics]
+tags: [ctf,forensics,nahamcon2024]
 ---
 by `soups71`
 
@@ -12,7 +12,7 @@ He said it is probably just useless manifest data from a disk.
 However, I think there might be some files that have taken up residence...
 
 **Attachments**: 
-![link](/assets/Evidence_001.zip)
+[Evidence](https://github.com/alhumaw/alhumaw.github.io/blob/main/assets/Evidence_001.zip)
 
 ## Solution
 ```
