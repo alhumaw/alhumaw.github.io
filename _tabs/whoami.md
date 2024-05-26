@@ -13,8 +13,7 @@ order: 4
 - CompTIA CySA+
 - AWS Solutions Architect Associate
 - AWS Certified Security Specialty
-
-![sec+](../assets/)
+- 
 
 You can reach out to me on Discord (@alexander7877) for further inqueries.
 
