@@ -11,13 +11,13 @@ I got a sweet desktop background for my favorite video game, but now I want more
 Here's a backup of all my wallpapers. For security, I set the drive password to be videogames.
 
 **Attachments**: 
-[Breath-of-the-Wild](https://github.com/alhumaw/alhumaw.github.io/blob/main/assets/breath-of-the-wild.7z)
+[Breath-of-the-Wild](https://github.com/alhumaw/alhumaw.github.io/blob/main/assets/nahamconctf2024/breath-of-the-wild.7z)
 
 ## Solution
 Pretty straightforward challenge, best done in Windows. The drive is a VHDX file, so just change the extension to that. Open the drive and unlock it with the password. There quite a few images that ultimately lead nowhere. The first step here is identifying that one of the files are a different dimension than the rest.
 
 
-![xor](/assets/link.png)
+![xor](/assets/nahamconctf2024/link.png)
 
 There also appear to be missing images according to the number naming scheme. Possibly deleted files? Time to check FTK Imager. 
 
