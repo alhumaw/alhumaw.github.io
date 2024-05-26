@@ -3,6 +3,7 @@ title: NahamCon CTF 2024 - Taking Up Residence
 date: Sat May 25 11:20:00 AM +00 2024
 categories: [Writeup]
 tags: [ctf,forensics,nahamcon2024]
+image: /assets/nahamconctf2024/icon.png
 ---
 by `soups71`
 
