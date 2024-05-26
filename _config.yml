@@ -20,7 +20,7 @@ timezone:
 
 title: Alexander M  # the main title
 
-tagline: Certified CTF GAMER # it will display as the sub-title
+tagline: DFIR/Pentesting Enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A place to store my experiences with CTF challenges.
@@ -29,9 +29,6 @@ url: "https://alhumaw.github.io"
 
 github:
   username: alhumaw # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -46,13 +43,8 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/alexandermoomaw
 
-google_site_verification: # fill in to your verification string
-
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
-
-google_analytics:
-  id: # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
