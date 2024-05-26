@@ -12,7 +12,7 @@ He said it is probably just useless manifest data from a disk.
 However, I think there might be some files that have taken up residence...
 
 **Attachments**: 
-[Evidence](https://github.com/alhumaw/alhumaw.github.io/blob/main/assets/Evidence_001.zip)
+[Evidence](https://github.com/alhumaw/alhumaw.github.io/blob/main/assets/nahamconctf2024/Evidence_001.zip)
 
 ## Solution
 ```
@@ -23,14 +23,14 @@ This challenge is solved by opening the manifest data in Autopsy. For some reaso
 
 Once the drive is loaded, I dug around the filesystem to find anything peculiar by searching for strings containing flag.txt:
 
-![xor](/assets/flag_txt.png)
+![xor](/assets/nahamconctf2024/flag_txt.png)
 
 Looks like a python file that was stored in this MFT dump. The Base64 data is a powershell command that opens a file to grab a key.
 Because the python script was executed and the script prints the key, the key also can be found in autopsy along with the encrypted flag.
 
-![xor](/assets/key.png)
+![xor](/assets/nahamconctf2024/key.png)
 
-![xor](/assets/encoded_flag.png)
+![xor](/assets/nahamconctf2024/encoded_flag.png)
 
 
 We know the key and have the encrypted flag, just reverse the Fernet encryption to get the flag.
